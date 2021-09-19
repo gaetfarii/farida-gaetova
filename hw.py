@@ -23,3 +23,20 @@ for i in range(len(a)):
 a = input()  # задача № 7
 print(a[::-1])
 
+a = input()  # задача № 8
+
+
+def palindrome(data):
+    data = data.replace(' ', '').lower()
+    data = data.replace(',', '').lower()
+    data = data.replace('.', '').lower()
+    data = data.replace('!', '').lower()
+    data = data.replace('?', '').lower()
+    print(data)
+    if data == data[::-1]:
+        return True
+    else:
+        return False
+
+
+print(palindrome(a))
