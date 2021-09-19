@@ -1,9 +1,9 @@
 word_1 = input()  # задача № 4
 word_2 = input()
 if sorted(word_1) == sorted(word_2):
-    print('True')
+    print('yes')
 else:
-    print('False')
+    print('no')
 
 
 
