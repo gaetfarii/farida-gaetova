@@ -1,3 +1,4 @@
+'''
 word_1 = input()  # задача № 4
 word_2 = input()
 if sorted(word_1) == sorted(word_2):
@@ -45,3 +46,5 @@ def palindrome(data):
     else:
         return False
 print(palindrome(a))
+'''
+print('11111')
