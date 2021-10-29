@@ -42,3 +42,4 @@ while new_tamagochi.health != 0:
     if new_tamagochi.hunger <= 50:  # доп условие
         feed_tamagochi(new_tamagochi)
     print_tamagochi(new_tamagochi)
+
